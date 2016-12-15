@@ -22,7 +22,7 @@ import org.apache.poi.ss.usermodel.Row;
 
 /**
  *
- * @author UC
+ * @author Pranay
  */
 public class JSCHsftp {
 
@@ -56,10 +56,10 @@ public class JSCHsftp {
     }
 
     private void createConnection(){
-        String SFTPHOST = "code4community.online";
+        String SFTPHOST = "host";
         int SFTPPORT = 22;
-        String SFTPUSER = "onlinec4c";
-        String SFTPPASS = "qUmX0m2up)N@";
+        String SFTPUSER = "username";
+        String SFTPPASS = "password";
         String SFTPWORKINGDIR = "./public_html/";
        
         System.out.println("preparing the host information for sftp.");
